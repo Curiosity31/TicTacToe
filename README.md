@@ -1,7 +1,7 @@
-Descrizione sintetica.
+Descrizione sintetica:
 Sistema client-server che consenta ai client di giocare a tris contro altri giocatori.
 
-Descrizione dettagliata.
+Descrizione dettagliata:
 Quando un nuovo client si collega al server, viene messo in attesa finché non è disponibile un altro client per
 iniziare una partita. A quel punto, i due client iniziano la partita, comunicando le loro mosse al server.
 Il server è in grado di gestire un numero arbitrario di partite simultanee (ogni partita coinvolge
@@ -9,7 +9,7 @@ due client e ogni client può essere coinvolto in una sola partita alla volta). 
 client coinvolti tornano disponibili e possono venire accoppiati con altri client disponibili, se ce ne sono in quel
 momento, per poi cominciare una nuova partita.
 
-Regole generali. 
+Regole generali: 
 Il server va realizzato in linguaggio C su piattaforma UNIX/Linux. Oltre alle system call
 UNIX. Il server è di tipo concorrente, ed è in grado di gestire un numero arbitrario di client contemporaneamente. 
 Il server effettua il log delle principali operazioni (nuove connessioni, sconnessioni, richieste da parte dei client) su standard output.
