@@ -1,7 +1,7 @@
-Descrizione sintetica
+Descrizione sintetica.
 Sistema client-server che consenta ai client di giocare a tris contro altri giocatori.
 
-Descrizione dettagliata
+Descrizione dettagliata.
 Quando un nuovo client si collega al server, viene messo in attesa finché non è disponibile un altro client per
 iniziare una partita. A quel punto, i due client iniziano la partita, comunicando le loro mosse al server.
 Il server è in grado di gestire un numero arbitrario di partite simultanee (ogni partita coinvolge
