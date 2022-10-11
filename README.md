@@ -1,5 +1,5 @@
 Descrizione sintetica:
-Sistema client-server che consenta ai client di giocare a tris contro altri giocatori.
+Sistema client-server che consente ai client di giocare a tris contro altri giocatori.
 
 Descrizione dettagliata:
 Quando un nuovo client si collega al server, viene messo in attesa finché non è disponibile un altro client per
